@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-configuration/spring-boot-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-configuration/spring-boot-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-first-app/spring-boot-first-app.iml" filepath="$PROJECT_DIR$/spring-boot-first-app/spring-boot-first-app.iml" />
     </modules>
   </component>

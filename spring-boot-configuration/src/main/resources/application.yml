@@ -1,0 +1,14 @@
+server:
+  port: 9080
+
+com:
+  example:
+    girl:
+      name: baby
+      age: 18
+      cupSize: B
+      desc: name:${com.example.girl.name} age:${com.example.girl.age} cupSize:${com.example.girl.cupSize}
+
+spring:
+  profiles:
+    active: dev
