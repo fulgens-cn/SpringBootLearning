@@ -9,12 +9,14 @@
         <module name="spring-boot-configuration" />
         <module name="spring-boot-devtools" />
         <module name="spring-boot-first-app" />
+        <module name="spring-boot-logging" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-configuration" target="1.8" />
       <module name="spring-boot-devtools" target="1.8" />
       <module name="spring-boot-first-app" target="1.8" />
+      <module name="spring-boot-logging" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
