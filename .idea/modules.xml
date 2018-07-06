@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-devtools/spring-boot-devtools.iml" filepath="$PROJECT_DIR$/spring-boot-devtools/spring-boot-devtools.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-first-app/spring-boot-first-app.iml" filepath="$PROJECT_DIR$/spring-boot-first-app/spring-boot-first-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-logging/spring-boot-logging.iml" filepath="$PROJECT_DIR$/spring-boot-logging/spring-boot-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
     </modules>
   </component>
 </project>
