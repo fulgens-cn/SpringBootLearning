@@ -9,6 +9,7 @@
         <module name="spring-boot-configuration" />
         <module name="spring-boot-devtools" />
         <module name="spring-boot-first-app" />
+        <module name="spring-boot-jdbc" />
         <module name="spring-boot-logging" />
         <module name="spring-boot-thymeleaf" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="spring-boot-configuration" target="1.8" />
       <module name="spring-boot-devtools" target="1.8" />
       <module name="spring-boot-first-app" target="1.8" />
+      <module name="spring-boot-jdbc" target="1.8" />
       <module name="spring-boot-logging" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
