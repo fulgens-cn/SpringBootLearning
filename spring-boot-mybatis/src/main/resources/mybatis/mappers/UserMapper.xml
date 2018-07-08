@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.springbootmybatis.mapper.IUserMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.springbootmybatis.entity.User" >
+        <id column="id" property="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+        <result column="username" property="username" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="password" property="password" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="create_time" property="createTime" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="update_time" property="updateTime" jdbcType="DATE" javaType="java.util.Date"/>
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+      id, username, password, create_time, update_time
+    </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+        select
+        <include refid="Base_Column_List" />
+        from tb_user
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+
+</mapper>

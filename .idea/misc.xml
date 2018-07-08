@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/spring-boot-logging/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
       </list>
     </option>
   </component>

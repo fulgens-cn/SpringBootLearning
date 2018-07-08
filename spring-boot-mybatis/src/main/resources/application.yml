@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: spring-boot-mybatis
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+    username: root
+    password: mysql123
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  # config-location与configuration不可同时指定
+  # 否则会报java.lang.IllegalStateException: Property 'configuration' and 'configLocation' can not specified with together
+  # config-location: classpath:mybatis/mybatis-config.xml # mybatis配置文件位置
+  mapper-locations: classpath:mybatis/mappers/*.xml # mapper映射文件位置
+  type-aliases-package: com.example.springbootmybatis.entity # 别名包
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰命名eg.表字段user_sex -- 实体属性userSex
+
+# mybatis sql日志
+logging:
+  level:
+    com:
+      example:
+        springbootmybatis:
+          mapper: debug

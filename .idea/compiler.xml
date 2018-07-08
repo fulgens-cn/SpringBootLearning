@@ -11,6 +11,7 @@
         <module name="spring-boot-first-app" />
         <module name="spring-boot-jdbc" />
         <module name="spring-boot-logging" />
+        <module name="spring-boot-mybatis" />
         <module name="spring-boot-thymeleaf" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="spring-boot-first-app" target="1.8" />
       <module name="spring-boot-jdbc" target="1.8" />
       <module name="spring-boot-logging" target="1.8" />
+      <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
