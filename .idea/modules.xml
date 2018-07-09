@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-first-app/spring-boot-first-app.iml" filepath="$PROJECT_DIR$/spring-boot-first-app/spring-boot-first-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-logging/spring-boot-logging.iml" filepath="$PROJECT_DIR$/spring-boot-logging/spring-boot-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mbg/spring-boot-mbg.iml" filepath="$PROJECT_DIR$/spring-boot-mbg/spring-boot-mbg.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
     </modules>
