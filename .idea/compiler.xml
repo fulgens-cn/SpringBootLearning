@@ -14,6 +14,7 @@
         <module name="spring-boot-logging" />
         <module name="spring-boot-mbg" />
         <module name="spring-boot-mybatis" />
+        <module name="spring-boot-redis" />
         <module name="spring-boot-thymeleaf" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="spring-boot-logging" target="1.8" />
       <module name="spring-boot-mbg" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
